@@ -1,0 +1,61 @@
+# ---- 常见忽略项 ----
+# 依赖
+node_modules/
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+.eggs/
+*.egg-info/
+
+# 构建产物
+dist/
+build/
+out/
+target/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
+
+# 操作系统
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# 日志与临时文件
+*.log
+*.tmp
+tmp/
+temp/
+.cache/
+
+# 密钥与凭据（切勿提交）
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+credentials.json
+secrets.json
+
+# 大文件 / 模型权重
+*.ckpt
+*.safetensors
+*.onnx
+*.pt
+*.pth
+*.bin
+*.h5
+
+# 本地数据
+data/
+datasets/
+outputs/
